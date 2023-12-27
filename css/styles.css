@@ -163,6 +163,8 @@ address {
 /* Main */
 /* Section 1 */
 .hero {
+    max-width: 1440px;
+    background-position: center;
     background-color: var(--NAVY-BLUE, #2E2F42);
     height: 600px;
     flex-shrink: 0;
@@ -303,8 +305,12 @@ h2 {
     border-radius: 50%;
     transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-.social-link:hover {
+.social-link:hover,
+.social-link:focus {
     background-color: #404BBF;
+}
+.icon {
+    fill:#f4f4fd;
 }
 /* Section 4*/
 .our-portfolio-title {
@@ -428,10 +434,13 @@ color: var(--IRIS, #4D5AE5);
     width: 40px;
     height: 40px;
 }
-.footer-socials-link:hover {
+.footer-socials-link:hover,
+.footer-socials-link:focus {
 background-color: #31D0AA;
 }
-
+.icon {
+   fill: #f4f4fd;
+}
 /* Modal window */
 input {
     font-family: inherit;
