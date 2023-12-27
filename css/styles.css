@@ -438,8 +438,8 @@ color: var(--IRIS, #4D5AE5);
 .footer-socials-link:focus {
 background-color: #31D0AA;
 }
-.icon {
-   fill: #f4f4fd;
+.footer-socials-icons {
+    fill: #f4f4fd;
 }
 /* Modal window */
 input {
