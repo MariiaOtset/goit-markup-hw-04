@@ -164,6 +164,7 @@ address {
 /* Section 1 */
 .hero {
     max-width: 1440px;
+    margin: 0 auto;
     background-position: center;
     background-color: var(--NAVY-BLUE, #2E2F42);
     height: 600px;
